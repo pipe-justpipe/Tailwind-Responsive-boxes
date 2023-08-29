@@ -741,6 +741,10 @@ video {
   padding: 2.5rem;
 }
 
+.hover\:p-12:hover {
+  padding: 3rem;
+}
+
 .hover\:duration-500:hover {
   transition-duration: 500ms;
 }
