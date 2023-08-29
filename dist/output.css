@@ -688,6 +688,12 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .hover\:bg-blue-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(30 64 175 / var(--tw-bg-opacity));
@@ -709,6 +715,30 @@ video {
 
 .hover\:p-32:hover {
   padding: 8rem;
+}
+
+.hover\:p-3:hover {
+  padding: 0.75rem;
+}
+
+.hover\:p-20:hover {
+  padding: 5rem;
+}
+
+.hover\:p-4:hover {
+  padding: 1rem;
+}
+
+.hover\:p-16:hover {
+  padding: 4rem;
+}
+
+.hover\:duration-500:hover {
+  transition-duration: 500ms;
+}
+
+.hover\:duration-1000:hover {
+  transition-duration: 1000ms;
 }
 
 @media (min-width: 640px) {
