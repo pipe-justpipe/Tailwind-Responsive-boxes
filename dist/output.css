@@ -609,6 +609,10 @@ video {
   overflow: hidden;
 }
 
+.overflow-clip {
+  overflow: clip;
+}
+
 .rounded-2xl {
   border-radius: 1rem;
 }
